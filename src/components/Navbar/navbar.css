@@ -1,0 +1,29 @@
+
+/* navbar.css */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black; 
+    border-bottom: 1px solid white;
+  }
+  
+  .nav img {
+    max-height: 100px;
+    width: 190px;
+    object-fit: cover;
+  }
+
+  .menu {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .menu a:hover {
+    cursor: pointer;
+    color: rgb(212, 208, 208);
+  }
+  

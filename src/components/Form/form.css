@@ -1,0 +1,79 @@
+/* General container styling */
+.card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  
+  /* Card styling */
+  .forms {
+    width: 100%;
+    max-width: 500px; /* Restrict card width */
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    height: auto;
+    border: 2px solid white;
+  }
+  
+  .card h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Placeholder styling */
+  .form-control::placeholder {
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  /* Button styling */
+  #btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #btn:hover {
+    background: #0056b3;
+  }
+  
+
+  
